@@ -1,0 +1,7 @@
+(let ((f1 5))
+  (let ((f2 (+ f1 20)))
+    (let ((f3 (+ f2 f1)))
+      (let ((f4 (- f3 10)))
+        (let ((f5 (+ f4 f4)))
+          (let ((f6 (add1 f5)))
+            (print f6)))))))
